@@ -1,12 +1,11 @@
 # IF7103-course-lab1
-LABORATORIOS SISTEMAS EXPERTOS PARA LA ADMINISTRACIÓN
+LABORATORIOS SISTEMAS EXPERTOS PARA LA ADMINISTRACIÓN - REGRESION LINEAL SIMPLE
 
 Construir un modelo de regresión lineal simple para predecir una variable dependiente (por ejemplo, precio vivienda) basándose en una variable independiente (por ejemplo, tamaño vivienda). Este ejemplo utiliza Python y la biblioteca scikit-learn, que es una biblioteca muy popular en el ámbito de ciencia de datos y machine learning.
 
 Ejercicio Práctico:
--Preparación de los Datos:
-
-Importar las bibliotecas necesarias.
+Preparación de los Datos:
+-Importar las bibliotecas necesarias.
 -Cargar el dataset.
 -Explorar y visualizar los datos para obtener una mejor comprensión de la relación entre las variables.
 
