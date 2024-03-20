@@ -1,6 +1,5 @@
-# IF7103-course-labs
-LABORATORIOS SISTEMAS EXPERTOS PARA LA ADMINISTRACIÓN
-# Laboratorio 2: Implementación de un Motor de Inferencia
+# IF7103-course-labs: LABORATORIOS SISTEMAS EXPERTOS PARA LA ADMINISTRACIÓN 
+## Laboratorio 2: Implementación de un Motor de Inferencia
 
 ## Objetivos
 - Desarrollar habilidades en la programación con Python para el manejo de interfaces gráficas de usuario (GUI) con Tkinter y la manipulación de datos con Pandas.
