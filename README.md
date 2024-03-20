@@ -1,5 +1,7 @@
-# LABORATORIOS SISTEMAS EXPERTOS PARA LA ADMINISTRACIÓN 
-## REGRESIÓN LINEAL SIMPLE
+# IF7103-course-labs: LABORATORIOS SISTEMAS EXPERTOS PARA LA ADMINISTRACIÓN 
+## Laboratorio 1: REGRESIÓN LINEAL SIMPLE
+
+### Descripción
 
 Construir un modelo de regresión lineal simple para predecir una variable dependiente (por ejemplo, precio vivienda) basándose en una variable independiente (por ejemplo, tamaño vivienda). Este ejemplo utiliza Python y la biblioteca scikit-learn, que es una biblioteca muy popular en el ámbito de ciencia de datos y machine learning.
 
