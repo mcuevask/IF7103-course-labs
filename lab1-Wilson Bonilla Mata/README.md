@@ -1,6 +1,6 @@
 # Importacion de Librerías
 
-!(resources/librerias.png)
+!(/resources/librerias.png)
 
 - **NumPy**: proporciona soporte para arreglos multidimensionales y operaciones matemáticas de alto nivel.
 
