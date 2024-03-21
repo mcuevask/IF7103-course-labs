@@ -10,7 +10,7 @@
 
 # Generación de Datos de Entrenamiento
 
-!(resources/datos_entrenamiento.png)
+![](resources/datos_entrenamiento.png)
 
 - **tamaño_vivienda**: representa la variable independiente.
 
@@ -24,7 +24,7 @@
 
 # Creación y Entrenamiento del Modelo
 
-!(resources/creacion_entrenamiento.png)
+![](resources/creacion_entrenamiento.png)
 
 - **Crear un modelo de regresión lineal**: se instancia un objeto de la clase `LinearRegression()`. Se crea un modelo vacío que luego será entrenado con los datos proporcionados.
 
@@ -32,7 +32,7 @@
 
 # Cálculo de Coeficiente de Regresión y Término Independiente
 
-!(resources/coeficiente_regresion_termino_independiente.png)
+![](resources/coeficiente_regresion_termino_independiente.png)
 
 - **Coeficiente de regresión**: es la pendiente de la línea de regresión en un modelo de regresión lineal. Indica cuánto cambia la variable dependiente por cada unidad de cambio en la variable independiente.
 
@@ -40,13 +40,13 @@
 
 # Predicción del Precio de una Vivienda
 
-!(resources/prediccion_precio.png)
+![](resources/prediccion_precio.png)
 
 - Se utiliza el método `predict()` del modelo para predecir el precio de la nueva vivienda basado en su tamaño, el cuál es de 160 metros cuadrados (m^2).
 
 # Cálculo del Error Cuadrático Medio (MSE) y Coeficiente de Determinación (R^2)
 
-!(resources/MSE_R2.png)
+![](resources/MSE_R2.png)
 
 - **modelo.predict(tamaño_vivienda)**: se utiliza el modelo de regresión lineal entrenado para predecir los precios de las viviendas en función de sus tamaños.
 
@@ -60,7 +60,7 @@
 
 # Código Gráfico
 
-!(resources/codigo_grafico.png)
+![](resources/codigo_grafico.png)
 
 - **plt.scatter()**: se crea un gráfico de dispersión donde cada punto representa una observación en los datos de entrenamiento. El eje x representa el tamaño de la vivienda (variable independiente) y el eje y representa el precio de la vivienda (variable dependiente).
 
@@ -68,7 +68,7 @@
 
 # Visualización de la Regresión Linear
 
-!(resources/grafico.png)
+![](resources/grafico.png)
 
 - **Puntos Negros**: representan los datos de entrenamiento utilizados en el modelo de regresión. El eje x de cada uno representa su tamaño en m^2 (variable independiente) y el eje y representa su precio (variable dependiente) en $.
 
