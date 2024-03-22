@@ -16,7 +16,7 @@
 
 - **precio_vivienda**: representa la variable dependiente.
 
-- **np.random.seed(0)**: establece la semilla para el generador de números aleatorios de NumPy en 
+- **np.random.seed(0)**: establece la semilla para el generador de números aleatorios de NumPy
 
 - **np.random.randint(80, 250, num_datos).reshape(-1, 1)**: genera números aleatorios enteros entre 80 y 250 y establece una matriz de una columna y tantas filas como datos.
 
