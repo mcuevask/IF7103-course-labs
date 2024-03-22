@@ -20,7 +20,7 @@
 
 - **np.random.randint(80, 250, num_datos).reshape(-1, 1)**: genera números aleatorios enteros entre 80 y 250 y establece una matriz de una columna y tantas filas como datos.
 
-- **np.random.normal(0, 5000, (num_datos, 1))**: agrega ruido aleatorio a los precios calculados.
+- **np.random.normal(0, 5000, (num_datos, 1))**: agrega ruido aleatorio a los precios calculados para realizar variaciones en los mismos.
 
 # Creación y Entrenamiento del Modelo
 
