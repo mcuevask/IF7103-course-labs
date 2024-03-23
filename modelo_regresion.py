@@ -7,9 +7,13 @@ from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 
 
-#carga de datos
-datos = pd.read_csv('datos.csv')
+# Generar datos aleatorios para metros cuadrados y precio de vivienda
+np.random.seed(0)  # Fijar la semilla para reproducibilidad
+metros_cuadrados = np.random.randint(50, 300, 100)  # Generar 100 valores aleatorios entre 50 y 300
+precio_vivienda = 1000 * metros_cuadrados + np.random.randint(-5000, 5000, 100)  # Generar precios aleatorios con algo de ruido
 
+# Crear un DataFrame con los datos
+datos = pd.DataFrame({'metros_cuadrados': metros_cuadrados, 'precio_vivienda': precio_vivienda})
 
 #Dividir los datos en conjuntos de entrenamiento y prueba:
 X = datos['metros_cuadrados'].values.reshape(-1, 1)
