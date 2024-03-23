@@ -72,6 +72,6 @@
 
 - **Puntos Negros**: representan los datos de entrenamiento utilizados en el modelo de regresión. El eje x de cada uno representa su tamaño en m^2 (variable independiente) y el eje y representa su precio (variable dependiente) en $.
 
-- **Linea Azul**: representa la línea de regresión lineal. Está basada en los datos de entrenamiento del modelo de regresión lineal y representa la mejor estimación en la relación lineal entre el tamaño de las viviendas (variable independiente) y el precio de las viviendas (variable dependiente)
+- **Linea Azul**: representa la línea de regresión lineal. Está basada en los datos de entrenamiento del modelo de regresión lineal y representa la mejor estimación en la relación lineal entre el tamaño de las viviendas (variable independiente) y el precio de las viviendas (variable dependiente). En este caso básicamente indica cuanto aumenta el precio de una vivienda cuando su tamaño aumenta.
 
 - **Interpretación del Ajuste del Modelo**: la linea de regresión pasa bastante cerca de la mayoría de los puntos, esto podría reflejar que el modelo tiene un ajuste razonable a los datos. Sin embargo, si bien el R^2 se encuentra cercano a 1 (0,8991246) indicando que es un buen modelo, el MSE se encuentra alto y lejano a 0 (23538792.3324).
