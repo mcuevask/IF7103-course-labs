@@ -5,6 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
+from sklearn.metrics import mean_squared_error, r2_score
 
 
 # Generar datos aleatorios para metros cuadrados y precio de vivienda
@@ -29,8 +30,14 @@ modelo.fit(X_train, y_train)
 #Realizar predicciones y evaluar el modelo:
 predicciones = modelo.predict(X_test)
 error = mean_squared_error(y_test, predicciones)
-print('Error cuadrático medio:', error)
+print('Error cuadrático medio (MSE):', error)
 
+# Calcular predicciones
+predicciones = modelo.predict(X_test)
+
+# Calcular el coeficiente de determinación (R²)
+r2 = r2_score(y_test, predicciones)
+print('Coeficiente de determinación (R²):', r2)
 
 #Visualizar los resultados:
 plt.scatter(X_test, y_test, color='blue')
@@ -39,3 +46,5 @@ plt.xlabel('Metros cuadrados')
 plt.ylabel('Precio vivienda')
 plt.title('Modelo de regresión lineal')
 plt.show()
+
+
