@@ -24,7 +24,7 @@
 
 # Creación y Entrenamiento del Modelo
 
-![](resources/creacion_entrenamiento.png)
+![](resources/creacion_entreno.png)
 
 - **Crear un modelo de regresión lineal**: se instancia un objeto de la clase `LinearRegression()`. Se crea un modelo vacío que luego será entrenado con los datos proporcionados.
 
