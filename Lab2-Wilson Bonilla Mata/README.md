@@ -48,7 +48,7 @@ Estas reglas se procesaron para expresarlas como una lista de objetos en un form
 
 ![](resources/motor_inferencias.png)
 
-- Se define la función **motor_inferencias()** que realiza el proceso de inferencia para diagnosticar enfermedades en plantas basado en las reglas establecidad y una entrada. Básicamente el motor de inferencias toma cada regla y evalua si la entrada cumple con los síntomas de la misma con el fin de diagnosticar la enfermedad en la entrada. La función, en caso de diagnosticar alguna enfermedad, retorna las enfermedades diagnosticadas con su respectiva explicación.
+- Se define la función **motor_inferencias()** que realiza el proceso de inferencia para diagnosticar enfermedades en plantas basado en las reglas establecidas y una entrada. Básicamente el motor de inferencias toma cada regla y evalua si la entrada cumple con los síntomas de la misma con el fin de diagnosticar la enfermedad en la entrada. La función, en caso de diagnosticar alguna enfermedad, retorna las enfermedades diagnosticadas con su respectiva explicación.
 
 ### Creación del UI para Mostrar los Diagnósticos
 
