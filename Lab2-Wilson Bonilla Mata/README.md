@@ -52,7 +52,7 @@ Estas reglas se procesaron para expresarlas como una lista de objetos en un form
 
 ### Creación del UI para Mostrar los Diagnósticos
 
-![](/resources/UI.png)
+![](resources/UI.png)
 
 - Se crea una ventana principal **root** utilizando tkinter.
 
