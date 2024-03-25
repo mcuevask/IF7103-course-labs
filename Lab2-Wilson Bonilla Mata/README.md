@@ -1,4 +1,4 @@
-# **Documentación de la Aplicación**
+# **Documentación del Funcionamiento y Diseño de la Aplicación**
 
 ## **Reglas del Motor de Inferencia**
 
