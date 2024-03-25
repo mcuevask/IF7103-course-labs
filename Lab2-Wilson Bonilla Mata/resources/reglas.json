@@ -1,0 +1,63 @@
+[
+    {
+        "sintomas": ["manchas_oscuras_hojas", "manchas_oscuras_frutos", "pudricion"],
+        "enfermedad": "Antracnosis",
+        "explicacion": "Se detectan manchas oscuras en hojas y frutos y prudición"
+    },
+    {
+        "sintomas": ["manchas_oscuras_frutos", "pudricion_acuosa"],
+        "enfermedad": "Podredumbre Negra",
+        "explicacion": "Se detectan manchas oscuras en frutos y prudición acuosa"
+        
+    },
+    {
+        "sintomas": ["manchas_negras_hojas", "reduccion_area_foliar"],
+        "enfermedad": "Sigatoka Negra",
+        "explicacion": "Se detectan manchas negras en hojas y reducción del area foliar"
+    },
+    {
+        "sintomas": ["manchas_negras_frutos", "manchas_negras_hojas", "defoliacion"],
+        "enfermedad": "Mancha de Asfalto",
+        "explicacion": "Se detectan manchas negras en frutos y hojas y defoliación"
+    },
+    {
+        "sintomas": ["manchas_negras_hojas", "deformacion_hojas", "deformacion_frutos"],
+        "enfermedad": "Mancha Negra",
+        "explicacion": "Se detectan manchas negras en hojas y deformación en hojas y frutos"
+    },
+    {
+        "sintomas": ["manchas_amarrilas_hojas", "formacion_lesiones"],
+        "enfermedad": "Mancha Angular",
+        "explicacion": "Se detectan manchas amarillas o marrones en hojas y formación de lesiones"
+    },
+    {
+        "sintomas": ["marchitez", "necrosis_cogollo", "hojas_sin_abrir"],
+        "enfermedad": "Pudricion del Cogollo",
+        "explicacion": "Se detecta marchitez, necrosis del cogollo y hojas sin abrir"
+    },
+    {
+        "sintomas": ["marchitez", "decoloracion", "perdida_vigor"],
+        "enfermedad": "Marchitez por Fusarium",
+        "explicacion": "Se detecta marchitez, decoloración de tallos y raices y perdida de vigor"
+    },
+    {
+        "sintomas": ["marchitez", "decoloracion"],
+        "enfermedad": "Fusariosis",
+        "explicacion": "Se detecta marchitez, decoloración de tallos y raices"
+    },
+    {
+        "sintomas": ["pustulas_naranjas", "defoliacion"],
+        "enfermedad": "Roya del Cafe",
+        "explicacion": "Se detectan pustulas naranjas y defoliacion"
+    },
+    {
+        "sintomas": ["patrones_mosaico_hojas", "deformacion_hojas", "deformacion_frutos"],
+        "enfermedad": "Virosis",
+        "explicacion": "Se detectan patrones de mosaico en hojas y deformación de hojas y frutos"
+    },
+    {
+        "sintomas": ["polvo_blanco_hojas", "deformidad_tallos"],
+        "enfermedad": "Oidio",
+        "explicacion": "Se detecta polvo blanco o gris en hojas y deformidad de tallos"
+    }
+]

@@ -21,3 +21,9 @@ def eliminar_regla(id):
 
 def obtener_reglas():
     return collection.find()
+
+def obtener_lista_reglas():
+    reglas = []
+    for regla in obtener_reglas():
+        reglas.append(regla)
+    return reglas

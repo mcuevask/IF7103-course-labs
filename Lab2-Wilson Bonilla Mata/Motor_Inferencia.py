@@ -43,8 +43,9 @@ tabla.grid(row=0, column=0, padx=10, pady=10)
 
 # Iterar sobre las entradas y mostrar los diagnósticos en la tabla
 for index, row in df.iterrows():
+    reglas = db.obtener_lista_reglas()
     entrada = row.to_dict()
-    enfermedades, explicaciones = motor_inferencias(db.obtener_reglas(), entrada)
+    enfermedades, explicaciones = motor_inferencias(reglas, entrada)
     if enfermedades:
         for enfermedad, explicacion in zip(enfermedades, explicaciones):
             tabla.insert("", "end", values=(index + 1, enfermedad, explicacion))
