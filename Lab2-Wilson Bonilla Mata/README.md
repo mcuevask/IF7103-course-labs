@@ -33,7 +33,7 @@ Estas reglas se procesaron para expresarlas como una lista de objetos en un form
 
 ![](resources/lectura_excel.png)
 
-- Se lee el archivo de pruebas en Excel llamado [entradas_plantas](entradas_plantas.xlsx). y se almacena en un DataFrame (estructura de datos bidimensional) utilizando la librería **pandas**, con el fin de obtener las entradas a evaluar por el motor de inferencia. Los diagnósticos de enfermedades esperados de las pruebas son los siguientes:
+- Se lee el archivo de pruebas en Excel llamado [entradas_plantas](entradas_plantas.xlsx) y se almacena en un DataFrame (estructura de datos bidimensional) utilizando la librería **pandas**, con el fin de obtener las entradas a evaluar por el motor de inferencia. Los diagnósticos de enfermedades esperados de las pruebas son los siguientes:
 
     1. Virosis
     2. Mancha Negra
