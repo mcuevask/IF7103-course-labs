@@ -1,0 +1,128 @@
+[
+    {
+        "nombre": "Antracnosis",
+        "sintomas_presentes": ["manchas_oscuras", "pudricion"],
+        "sintomas_ausentes": ["manchas_negras", "reducción_foliar", "marchitez", "necrosis_cogollo",
+                              "pustulas_naranja", "defoliacion", "manchas_círculares", "caida_prematura_frutos",
+                              "decoloracion", "pudricion_acuosa", "manchas_amarillas_marrones",
+                              "lesiones", "polvo_blanco", "caída_prematura_hojas","patrones_mosaico", "deformación"],
+        "diagnostico": "La planta sufre de antracnosis.",
+        "explicacion": "Presenta manchas oscuras en hojas y frutos; además de pudrición."
+
+    },
+    {
+        "nombre": "Sigatoka Negra (en banano)",
+        "sintomas_presentes": ["manchas_negras", "reduccion_foliar"],
+        "sintomas_ausentes": ["manchas_oscuras", "pudricion", "marchitez","necrosis_cogollo",
+                            "pústulas_naranja","defoliación","manchas_círculares","caida_prematura_frutos",
+                            "decoloración", "pudrición_acuosa","manchas_amarillas_marrones", "lesiones",
+                            "polvo_blanco","caida_prematura_hojas", "patrones_mosaico","deformacion"],
+        "diagnostico":"La planta de sigatoka negra (en banano).",
+        "explicacion": "Presenta manchas negras alargadas en hojas y además reducción del area foliar."
+    },
+    {
+        "nombre" : "Pudrición del Cogollo (en palma aceitera)",
+        "sintomas_presentes": ["marchitez", "necrosis_cogollo"],
+        "sintomas_ausentes": ["manchas_oscuras", "pudricion", "manchas_negras","reduccion_foliar",
+                            "pustulas_naranja","defoliacion","manchas_circulares","caida_prematura_frutos",
+                            "decoloracion", "pudricion_acuosa","manchas_amarillas_marrones",
+                            "lesiones","polvo_blanco","caida_prematura_hojas","patrones_mosaico","deformacion"],
+        "diagnostico" : "La planta tiene pudrición del cogollo",
+        "explicacion": "Presenta marchitez y necrosis en cogollo, además de hojas jóvenes que no se abren."
+    },
+    {
+        "nombre": "Roya del cafe",
+        "sintomas_presentes": ["pustulas_naranja", "defoliacion"],
+        "sintomas_ausentes": ["manchas_oscuras", "pudrición", "manchas_negras","reduccion_foliar","marchitez","necrosis_cogollo",
+                            "manchas_circulares","caida_prematura_frutos",
+                            "decoloracion", "pudricion_acuosa","manchas_amarillas_marrones",
+                            "lesiones","polvo_blanco","caida_prematura_hojas",
+                            "patrones_mosaico","deformacion"],
+        "diagnostico" : "La planta sufre de roya del cafe.",
+        "explicacion" : "Presenta pústulas de color naranja y defoliación."
+
+    },
+    {
+        "nombre":"Mancha de Asfalto (en citricos)",
+        "sintomas_presentes": ["manchas_circulares", "caida_prematura_frutos"],
+        "sintomas_ausentes": ["manchas_oscuras", "pudricion", "manchas_negras","reduccion_foliar","marchitez",
+                              "necrosis_cogollo","pustulas_naranja","defoliacion",
+                            "decoloracion", "pudrición_acuosa","manchas_amarillas_marrones",
+                            "lesiones","polvo_blanco","caida_prematura_hojas",
+                            "patrones_mosaico","deformacion"],
+        "diagnostico": "La planta tiene mancha de asfalto.",
+        "explicacion": "Presenta manchas en forma de circulo en frutos y hojas, además de caida prematura de frutos."
+    },
+    {
+        "nombre" : "Marchitez por Fusarium",
+        "sintomas_presentes": ["marchitez", "decoloracion"],
+        "sintomas_ausentes": ["manchas_oscuras", "pudricion", "manchas_negras","reduccion_foliar","necrosis_cogollo",
+                            "pustulas_naranja","defoliacion","manchas_circulares","caida_prematura_frutos",
+                            "pudricion_acuosa","manchas_amarillas_marrones",
+                            "lesiones","polvo_blanco","caida_prematura_hojas",
+                            "patrones_mosaico","deformacion"],
+        "diagnostico" : "La planta sufre de marchitez por fusarium",
+        "explicacion" : "Tiene marchitez, decoloracion de tallos y raices, y perdida de vigor."
+    },
+    {
+        "nombre" : "Podredumbre negra (en piña)",
+        "sintomas_presentes": ["manchas_oscuras", "pudricion_acuosa"],
+        "sintomas_ausentes": ["pudricion", "manchas_negras","reduccion_foliar","marchitez","necrosis_cogollo",
+                            "pustulas_naranja","defoliación","manchas_circulares","caida_prematura_frutos",
+                            "decoloracion","manchas_amarillas_marrones",
+                            "lesiones","polvo_blanco","tallos_deformes","caida_prematura_hojas",
+                            "patrones_mosaico","deformacion"],
+        "diagnostico" : "La planta sufre de podredumbre negra (en Piña).",
+        "explicacion" :"Presenta manchas oscuras en la base del fruto y ademas pudricion acuosa."
+    },
+    {
+        "nombre":"Mancha Angular (en frijoles)",
+        "sintomas_presentes": ["manchas_amarillas_marrones", "lesiones"],
+        "sintomas_ausentes": ["manchas_oscuras", "pudricion", "manchas_negras","reduccion_foliar","marchitez","necrosis_cogollo",
+                            "pustulas_naranja","defoliacion","manchas_circulares","caida_prematura_frutos",
+                            "decoloracion", "pudricion_acuosa","polvo_blanco","caida_prematura_hojas",
+                            "patrones_mosaico","deformacion"],
+        "diagnostico" : "La planta sufre de mancha angular (en frijoles).",
+        "explicacion": "Presenta manchas amarillas o marrones en hojas y formacion de lesiones."
+    },
+    {
+        "nombre" :"Oídio",
+        "sintomas_presentes": ["polvo_blanco", "deformacion"],
+        "sintomas_ausentes": ["manchas_oscuras", "pudricion", "manchas_negras","reduccion_foliar","marchitez","necrosis_cogollo",
+                            "pustulas_naranja","defoliacion","manchas_circulares","caida_prematura_frutos",
+                            "decoloracion", "pudricion_acuosa","manchas_amarillas_marrones",
+                            "lesiones","caida_prematura_hojas", "patrones_mosaico"],
+        "diagnostico" : "La planta sufre de oidio.",
+        "explicacion": "Tiene polvo blanco o gris en las hojas y tallos deformes."
+    },
+    {
+        "nombre":  "Mancha Negra",
+        "sintomas_presentes": ["manchas_negras", "caida_prematura_hojas"],
+        "sintomas_ausentes": ["manchas_oscuras", "pudricion", "reduccion_foliar","marchitez","necrosis_cogollo",
+                            "pustulas_naranja","defoliacion","manchas_círculares","caida_prematura_frutos",
+                            "decoloracion", "pudricion_acuosa","manchas_amarillas_marrones",
+                            "lesiones","polvo_blanco", "patrones_mosaico","deformacion"],
+        "diagnostico" : "La planta sufre de mancha negra",
+        "explicacion": "Tiene manchas negras en las hojas y además caida prematura de las hojas."
+    },
+    {
+        "nombre": "Virosis (Virus del Mosaico)",
+        "sintomas_presentes": ["patrones_mosaico", "deformacion"],
+        "sintomas_ausentes": ["manchas_oscuras", "pudricion", "manchas_negras","reduccion_foliar","marchitez",
+                            "necrosis_cogollo","pustulas_naranja","defoliacion","manchas_circulares",
+                            "caida_prematura_frutos","decoloracion", "pudricion_acuosa","manchas_amarillas_marrones",
+                            "lesiones","polvo_blanco","caida_prematura_hojas"],
+        "diagnostico": "La planta tiene virosis.",
+        "explicacion": "Presenta patrones de mosaico en las hojas y deformación de hojas y frutos."
+    },
+    {
+        "nombre":"Sana",
+        "sintomas_presentes": [],
+        "sintomas_ausentes": ["manchas_oscuras", "pudricion", "manchas_negras","reduccion_foliar","marchitez",
+                              "necrosis_cogollo", "pustulas_naranja","defoliacion","manchas_circulares",
+                              "caida_prematura_frutos", "decoloracion", "pudricion_acuosa","manchas_amarillas_marrones",
+                            "lesiones","polvo_blanco","caida_prematura_hojas", "patrones_mosaico","deformacion"],
+        "diagnostico" : "La planta está sana.",
+        "explicacion": "No presenta ningún sintoma."
+    }
+]
