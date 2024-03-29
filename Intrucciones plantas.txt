@@ -1,0 +1,1 @@
+El excel tiene en contenido 5 plantas, la cual se le completa en el excel en cada columna si posee o es ausente de algun sintoma 
