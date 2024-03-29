@@ -1,5 +1,5 @@
-from pymongo import MongoClient
-from bson.objectid import ObjectId
+from pymongo import MongoClient # Importe para administrar bases de datos en MongoDB
+from bson.objectid import ObjectId # Importe para manejar datos de tipo ObjectId
 
 # Conexión a la base de datos MongoDB
 client = MongoClient('localhost', 27017)

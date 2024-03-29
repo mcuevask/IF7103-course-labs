@@ -22,7 +22,7 @@ def agregar_regla():
 
     db.agregar_regla(nuevo_regla)
     
-    messagebox.showinfo("Éxito", "Regla creada con éxito")
+    messagebox.showinfo("Éxito", "Regla agregada correctamente")
     limpiar_campos()
     mostrar_reglas()
 

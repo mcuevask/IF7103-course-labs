@@ -1,4 +1,4 @@
-# **Documentación de la Aplicación**
+# **Documentación del Funcionamiento y Diseño de la Aplicación**
 
 ## **Reglas del Motor de Inferencia**
 
@@ -15,7 +15,7 @@
 - Si hay patrones mosaico hojas y deformacion de hojas y frutos entonces hay Virosis.
 - Si hay polvo blanco o gris en hojas y deformidad en tallos entonces hay oidio.
 
-Estas reglas se procesaron para expresarlas como una lista de objetos en un formato [JSON](/resources/reglas.json).
+Estas reglas se procesaron para expresarlas como una lista de objetos en un formato [JSON](resources/reglas.json).
 
 ## **Diseño del Motor de Inferencia**
 
@@ -33,7 +33,7 @@ Estas reglas se procesaron para expresarlas como una lista de objetos en un form
 
 ![](resources/lectura_excel.png)
 
-- Se lee el archivo de pruebas en Excel llamado [entradas_plantas](/entradas_plantas.xlsx). y se almacena en un DataFrame (estructura de datos bidimensional) utilizando la librería **pandas**, con el fin de obtener las entradas a evaluar por el motor de inferencia. Los diagnósticos de enfermedades esperados de las pruebas son los siguientes:
+- Se lee el archivo de pruebas en Excel llamado [entradas_plantas](entradas_plantas.xlsx) y se almacena en un DataFrame (estructura de datos bidimensional) utilizando la librería **pandas**, con el fin de obtener las entradas a evaluar por el motor de inferencia. Los diagnósticos de enfermedades esperados de las pruebas son los siguientes:
 
     1. Virosis
     2. Mancha Negra
@@ -48,11 +48,11 @@ Estas reglas se procesaron para expresarlas como una lista de objetos en un form
 
 ![](resources/motor_inferencias.png)
 
-- Se define la función **motor_inferencias()** que realiza el proceso de inferencia para diagnosticar enfermedades en plantas basado en las reglas establecidad y una entrada. Básicamente el motor de inferencias toma cada regla y evalua si la entrada cumple con los síntomas de la misma con el fin de diagnosticar la enfermedad en la entrada. La función, en caso de diagnosticar alguna enfermedad, retorna las enfermedades diagnosticadas con su respectiva explicación.
+- Se define la función **motor_inferencias()** que realiza el proceso de inferencia para diagnosticar enfermedades en plantas basado en las reglas establecidas y una entrada. Básicamente el motor de inferencias toma cada regla y evalua si la entrada cumple con los síntomas de la misma con el fin de diagnosticar la enfermedad en la entrada. La función, en caso de diagnosticar alguna enfermedad, retorna las enfermedades diagnosticadas con su respectiva explicación.
 
 ### Creación del UI para Mostrar los Diagnósticos
 
-![](/resources/UI.png)
+![](resources/UI.png)
 
 - Se crea una ventana principal **root** utilizando tkinter.
 
@@ -72,3 +72,18 @@ Estas reglas se procesaron para expresarlas como una lista de objetos en un form
 
 - Se ejecuta el bucle de eventos principal (**mainloop()**) de tkinter para mostrar la interfaz gráfica y permitir la interacción del usuario.
 
+## Reflexión  
+
+- Una de las cosas que se complicó tiene que ver con recorrer las dos listas resultantes para mostrar el diagnóstico diagnóstico. Gracias a un poco de investigación, se solucionó utilizando una clase de Python llamada "zip".
+
+- Otra de las cosas que se complicó tiene que ver con la mejora realizada utilizando una base de datos para almacenar las reglas del motor de inferencia. Cuando se obtenia las reglas de la base de datos, retornaba un puntero y se necesitaba las reglas como una lista de objetos. La solución fue crear un método en la base de datos que me retorna la lista de reglas.
+
+## Mejoras
+
+- Se creó una base de datos en MongoDB utilizando **pymongo** para almacenar y administrar las reglas utilizadas por el motor de inferencia (base de conocimiento). La base de datos permite agregar, eliminar y obtener dichas reglas. La mejora se implemento en Python de la siguiente forma: [Database.py](Database.py)
+
+- Se implementó una interfaz de usuario que le permite al usuario agregar nuevas reglas, eliminar las existentes y observar las reglas utilizadas por el motor de inferencia mediante la misma. La interfaz de usuario se conecta directamente con la base de datos para invocar los métodos que le permiten realizar los cambios requeridos y solicitar información. La mejora se implemento en Python de la siguiente forma: [UI_Database.py](UI_Database.py)
+
+- Se implementó una interfaz de usuario que le permite al usuario introducir los síntomas que posee la planta para que el motor de inferencias pueda brindar su diagnóstico por medio de la la misma. La interfaz de usuario muestra un mensaje indicando las enfermedades y su respectivas explicaciones. La mejora se implemento en Python de la siguiente forma: [UI_Usuario.py](UI_Usuario.py)
+
+Las interfaces de usuario poseen limitaciónes al momento de introducir síntomas de plantas, sin embargo, se utiliza una entrada de texto en el cual el usuario introduce dichos síntomas separados por una coma y sus nombres separados por un guión bajo.
