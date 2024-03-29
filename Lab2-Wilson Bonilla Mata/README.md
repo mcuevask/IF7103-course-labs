@@ -74,7 +74,7 @@ Estas reglas se procesaron para expresarlas como una lista de objetos en un form
 
 ## Reflexión  
 
-- Una de las cosas que se complicó tiene que ver con recorrer las dos listas resultantes para mostrar el diagnóstico diagnóstico. Gracias a un poco de investigación, se solucionó utilizando una clase de Python llamada "zip".
+- Una de las cosas que se complicó tiene que ver con recorrer las dos listas resultantes para mostrar el diagnóstico. Gracias a un poco de investigación, se solucionó utilizando una clase de Python llamada "zip".
 
 - Otra de las cosas que se complicó tiene que ver con la mejora realizada utilizando una base de datos para almacenar las reglas del motor de inferencia. Cuando se obtenia las reglas de la base de datos, retornaba un puntero y se necesitaba las reglas como una lista de objetos. La solución fue crear un método en la base de datos que me retorna la lista de reglas.
 
